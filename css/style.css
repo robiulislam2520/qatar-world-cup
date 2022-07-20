@@ -26,9 +26,11 @@ ul li {
 a {
     text-decoration: none;
 }
-button{
+
+button {
     border: none;
 }
+
 .container {
     max-width: 1240px;
     width: 100%;
@@ -40,17 +42,21 @@ button{
     background-color: #161616;
     padding: 50px 0 0px;
 }
-.hero_section_items{
+
+.hero_section_items {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hero_section_items div{
+
+.hero_section_items div {
     width: 50%;
 }
-.hero_section_content{
+
+.hero_section_content {
     padding-right: 150px;
 }
+
 .hero_section_content h1 {
     font-weight: 700;
     font-size: 70px;
@@ -66,7 +72,8 @@ button{
     margin: 20px 0 30px;
 
 }
-.hero_section_content .hero_btn{
+
+.hero_section_content .hero_btn {
     background: #DD0000;
     border-radius: 5px;
     padding: 16px 30px;
@@ -77,26 +84,31 @@ button{
     line-height: 23px;
     transition: 0.3s;
 }
-.hero_section_content .hero_btn:hover{
+
+.hero_section_content .hero_btn:hover {
     background-color: #fff;
     color: #161616;
     border-radius: 5px;
 }
-.hero_section_content .hero_btn .fa-chevron-right{
+
+.hero_section_content .hero_btn .fa-chevron-right {
     margin-right: 6px;
     animation: iconAnimation 2s ease-in-out infinite;
 }
-@keyframes iconAnimation{
+
+@keyframes iconAnimation {
+
     0%,
     100% {
-      transform: translate(0);
+        transform: translate(0);
     }
-  
+
     50% {
-      transform: translate(15px);
+        transform: translate(15px);
     }
 }
-.hero_section_image img{
+
+.hero_section_image img {
     margin-bottom: -7px;
 }
 
@@ -198,3 +210,50 @@ button{
 }
 
 /* ==========Footer Section=========== */
+.footer_section {
+    background-color: #161616;
+    text-align: center;
+    padding: 130px 0;
+}
+
+.footer_content .logo a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.footer_content .short_cut_link ul li {
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.footer_content .short_cut_link ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+.footer_content .short_cut_link ul li a:hover{
+    text-decoration: underline;
+}
+.social_media ul li{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.social_media ul li a{
+    color: #161616;
+    background-color: #fff;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.social_media ul li a:hover{
+    background-color: #DD0000;
+    color: #fff;
+}

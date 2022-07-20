@@ -53,6 +53,16 @@
         margin: 15px 0;
         font-size: 14px;
     }
+    /* Footer Section */
+    .footer_content .short_cut_link ul li{
+        margin-top: 30px;
+    }
+    .social_media ul li a{
+        font-size: 18px;
+    }
+    .social_media ul li{
+        margin-top: 50px;
+    }
 }
 
 
@@ -124,5 +134,12 @@
     .hero_section_content p{
         font-size: 14px;
         margin: 15px 0;
+    }
+    /* Footer Section */
+    .footer_section {
+        padding: 70px 0;
+    }
+    .footer_content .short_cut_link ul li{
+        margin-top: 50px;
     }
 }
