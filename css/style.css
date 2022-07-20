@@ -178,6 +178,14 @@ button {
     padding: 20px;
 }
 
+.card_content h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    margin: 20px 0;
+}
+
 .content .card .card_content ul li {
     display: inline-block;
     margin-right: 30px;
@@ -185,6 +193,14 @@ button {
 
 .content .card .card_content ul li i {
     margin-right: 10px;
+}
+
+.catagory {
+    border: 1.14423px solid #161616;
+    border-radius: 5px;
+    padding: 4px 8px;
+    width: 50%;
+    text-align: center;
 }
 
 .view_all {
@@ -236,15 +252,17 @@ button {
     margin-right: 30px;
     transition: 0.3s;
 }
-.footer_content .short_cut_link ul li a:hover{
+
+.footer_content .short_cut_link ul li a:hover {
     text-decoration: underline;
 }
-.social_media ul li{
+
+.social_media ul li {
     display: inline-block;
     margin-top: 40px;
 }
 
-.social_media ul li a{
+.social_media ul li a {
     color: #161616;
     background-color: #fff;
     font-size: 24px;
@@ -253,7 +271,8 @@ button {
     margin-right: 10px;
     transition: 0.5s;
 }
-.social_media ul li a:hover{
+
+.social_media ul li a:hover {
     background-color: #DD0000;
     color: #fff;
 }
